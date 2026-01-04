@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="YOUR_GOOGLE_CODE_HERE" />
+    <title>Fly Birds</title>
+    <style>
+        /* Basic Facebook-like styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4267B2;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header input {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .post-box {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+        }
+        .post-box h3 {
+            margin: 0 0 10px 0;
+        }
+        .post-box p {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fly Birds</h1>
+        <input type="text" placeholder="Search...">
+    </header>
+
+    <div class="container">
+        <div class="post-box">
+            <h3>John Doe</h3>
+            <p>Hello everyone! This is my first post on Fly Birds.</p>
+        </div>
+        <div class="post-box">
+            <h3>Jane Smith</h3>
+            <p>Excited to join Fly Birds! 🐦</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Fly Birds
+    </footer>
+</body>
+</html>
